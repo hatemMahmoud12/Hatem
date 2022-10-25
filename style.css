@@ -600,6 +600,8 @@ header.sticky{
 		--p-font: 1rem;
 		transition: .3s;
 	}
+	.row1 img{
+    display: none;
     
 }
 
@@ -643,6 +645,8 @@ header.sticky{
 	.navlist.active{
 		top: 100%;
 	}
+	.row1 img{
+    display: none;
 }
 
 @media (max-width: 800px){
@@ -682,4 +686,6 @@ header.sticky{
 		padding: 65px 3%;
 		transition: .3s;
 	}
+.row1 img{
+    display: none;
 }
