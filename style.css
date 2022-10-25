@@ -511,6 +511,71 @@ header.sticky{
 }
 
 
+.service-content1{
+	display: flex;
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+	grid-gap: 2rem;
+    justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+
+.row1{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://4.bp.blogspot.com/-NusT8_BxXvU/WigtjvJvKLI/AAAAAAABOyg/VP7N3f2xgkAOOU2LPKaVCBdTsMiDJp_EgCK4BGAYYCw/s1600/Web-design.jpg)no-repeat;
+	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 10%);
+	border-radius: 22px;
+    background-size: cover;
+    background-position: right;
+	padding: 45px 45px 45px 45px;
+	transition: ease .45s;
+    width: 60%;
+}
+.row1 h3{
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 2px;
+    color: white;
+}
+.row1 h5{
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 19px;
+    color: darkgray;
+}
+.row1 p{
+	font-size: var(--p-font);
+	color: var(--secound-color);
+	line-height: 28px;
+}
+.row1 img{
+    width: 100px;
+    position: absolute;
+    left: 300px;
+    top: 220em;
+}
+.btn1{
+	display: inline-block;
+	padding: 9px 30px;
+    margin: 13px  0;
+	background: transparent;
+	border: 2px solid var(--main-color);
+	border-radius: 30px;
+	color: white;
+    letter-spacing: 1px;
+	font-size: var(--p-font);
+	font-weight: 500;
+	transition: ease .50s;
+    cursor: pointer;
+}
+
+.btn1:hover{
+	transform: scale(1.1);
+	background: var(--main-color);
+	border: 2px solid var(--main-color);
+	color: var(--bg-color);
+}
+
 
 @media (max-width: 1425px){
 	header{
