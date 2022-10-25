@@ -651,6 +651,12 @@ header.sticky{
 }
 
 @media (max-width: 800px){
+	.row1 img{
+                 width: 100px;
+                 position: absolute;
+                 left: 300px;
+                 top: 220em;
+        }
 	.home{
 		grid-template-columns: 1fr;
 		min-height: 130vh;
@@ -683,14 +689,10 @@ header.sticky{
 		--big-font: 3.4rem;
 		--h2-font: 2rem;
 	}
+
 	section{
 		padding: 65px 3%;
 		transition: .3s;
 	}
-	.row1 img{
-    width: 100px;
-    position: absolute;
-    left: 300px;
-    top: 220em;
+
 }
-	}
