@@ -567,9 +567,9 @@ header.sticky{
 	font-size: var(--p-font);
 	font-weight: 500;
 	transition: ease .50s;
-    cursor: pointer;
+    /**cursor: pointer;**/
 }
-/**
+/** محتاج تعديل بعد التصوير والانتهاء من الكورس
 .btn1:hover{
 	transform: scale(1.1);
 	background: var(--main-color);
