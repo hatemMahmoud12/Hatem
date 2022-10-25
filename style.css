@@ -553,7 +553,7 @@ header.sticky{
     width: 100px;
     position: absolute;
     left: 300px;
-    top: 900em;
+    top: 0;
 }
 .btn1{
 	display: inline-block;
