@@ -320,6 +320,9 @@ header.sticky{
 	margin-top: 5rem;
 	text-align: center;
 	cursor: pointer;
+	display: flex;
+	align-items:center;
+	justify-content:center;
 }
 .col{
 	position: relative;
