@@ -321,6 +321,7 @@ header.sticky{
 	text-align: center;
 	cursor: pointer;
 	width: 100%;
+	padding: 15px 30px;
 }
 .col{
 	position: relative;
