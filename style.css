@@ -9,7 +9,7 @@
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
-	direction: right;
+	
 }
 .dot{
     position: absolute;
@@ -320,9 +320,6 @@ header.sticky{
 	margin-top: 5rem;
 	text-align: center;
 	cursor: pointer;
-	display: flex;
-	align-items:center;
-	justify-content:center;
 	width: 100%;
 }
 .col{
