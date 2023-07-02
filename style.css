@@ -11,17 +11,7 @@
 	scroll-behavior: smooth;
 	
 }
-.dot{
-    position: absolute;
-    top: 1480px;
-    z-index: -1000;
-}
-.dot2{
-    position: absolute;
-    bottom: -2115px;
-    z-index: -1000;
-    left: 0;
-}
+
 :root{
 	--bg-color: #ffff;
 	--text-color: #000;
@@ -178,7 +168,7 @@ span{
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba(128,103,240,1);
+	background: var(--main-color);
 	font-size: 17px;
 	color: var(--bg-color);
 	margin-right: 22px;
