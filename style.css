@@ -317,6 +317,7 @@ header.sticky{
 .col{
 	position: relative;
 		box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+
 }
 .col img{
 	max-width: 100%;
@@ -495,17 +496,6 @@ header.sticky{
 	margin: 0 10px 20px 0;
 	border-radius: 30px;
 }
-.contact .action form input[type="submit"] {
-	padding: 12px 40px;
-	background: var(--main-color);
-	color: var(--bg-color);
-	border: none;
-	outline: none;
-	margin: 0 10px 20px 0;
-	border-radius: 30px;
-	cursor: pointer;
-}
-
 
 .service-content1{
 	display: flex;
