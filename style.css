@@ -317,6 +317,7 @@ header.sticky{
 .col{
 	position: relative;
 		box-shadow: 8px 0px 8px 0px #000;
+	border-radius: 12px;
 
 }
 .col img{
@@ -324,7 +325,6 @@ header.sticky{
 	width: 550px;
 	height: auto;
 	object-fit: cover;
-	border-radius: 12px;
 }
 .layer{
 	height: 100%;
