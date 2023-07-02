@@ -318,14 +318,16 @@ header.sticky{
 	position: relative;
 		box-shadow: 8px 0px 8px 0px rgba(0,0,0,0.5);
 	border-radius: 12px;
+	height: 300px;
 
 }
 .col img{
 	max-width: 100%;
 	width: 550px;
-	height: auto;
+	height: 300px;
 	object-fit: cover;
 		border-radius: 12px;
+	
 
 }
 .layer{
