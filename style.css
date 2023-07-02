@@ -322,6 +322,7 @@ header.sticky{
 	border-radius: 12px;
 	height: 200px;
 		width: 370px;
+	align-self: center;
 
 
 }
