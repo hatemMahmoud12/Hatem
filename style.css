@@ -547,6 +547,17 @@ footer{
 .brand{
 	margin-right: 20px;
 }
+.brand a{
+	
+	display: inline-block;
+	font-size: 22px;
+	color: white;
+	margin-right: 17px;
+	transition: all .40s ease;
+	background: var(--main-color);
+	padding: 10px;
+	border-radius: 30px;
+}
 footer img{
 	width: 100px;
 }
@@ -556,16 +567,6 @@ footer p{
 	line-height: 30px;
 	margin: 20px 0;
 	width: 300px;
-}
-footer a{
-	display: inline-block;
-	font-size: 22px;
-	color: white;
-	margin-right: 17px;
-	transition: all .40s ease;
-	background: var(--main-color);
-	padding: 10px;
-	border-radius: 30px;
 }
 footer h3{
 	color: var(--main-color);
