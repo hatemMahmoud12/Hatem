@@ -603,6 +603,9 @@ footer li a:hover{
 	transform: translateY(-3px) translateX(-5px);
 	color: var(--main-color);
 }
+footer .row{
+	display: flex;
+}
 
 @media (max-width: 1425px){
 	header{
