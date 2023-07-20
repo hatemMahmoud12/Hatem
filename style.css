@@ -605,6 +605,7 @@ footer li a:hover{
 }
 footer .row{
 	display: flex;
+	justify-content: space-between;
 }
 
 @media (max-width: 1425px){
