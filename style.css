@@ -469,43 +469,6 @@ header.sticky{
 	font-size: var(--p-font);
 }
 
-.contact{
-	background: #8067f0eb;
-	width: 64%;
-	margin: 100px auto;
-	padding: 70px 150px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	border-radius: 12px;
-	background-image: url(../img/intro.png);
-	background-size: cover;
-}
-.center h3{
-	font-size: 30px;
-	font-weight: 500;
-	margin-bottom: 3px;
-	color: var(--bg-color);
-}
-.center p{
-	font-size: var(--p-font);
-	color: var(--bg-color);
-	line-height: 26px;
-	margin-bottom: 25px;
-}
-.contact .action form input[type="email"] {
-	max-width: 100%;
-	width: 470px;
-	padding: 12px 15px;
-	background: var(--bg-color);
-	color: var(--text-color);
-	border: none;
-	outline: none;
-	margin: 0 10px 20px 0;
-	border-radius: 30px;
-}
-
 .service-content1{
 	display: flex;
 	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
@@ -605,17 +568,20 @@ footer h3{
 	color: var(--main-color);
 	margin-bottom: 1.5rem;
 	font-size: 20px;
-	font-weight: bold;
+	font-wight: bold;
 }
 footer li{
 	margin-bottom: 16px;
 }
 footer li a{
 	display: block;
-	color: black;
+	color: white;
 	font-size: 15px;
 	font-weight: 400;
 	transition: all .40s ease;
+	background: var(--main-color);
+	padding: 10px;
+	border-radius: 30px;
 }
 footer li a:hover{
 	transform: translateY(-3px) translateX(-5px);
