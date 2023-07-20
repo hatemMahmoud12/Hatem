@@ -584,16 +584,26 @@ footer{
 footer img{
 	width: 80px;
 }
-footer .row{
-	display: flex;
-	width: 85%;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	
+footer h3{
+	color: var(--main-color);
+	margin-bottom: 1.5rem;
+	font-size: 20px;
 }
-footer .col{
+footer li{
+	margin-bottom: 16px;
+}
+footer li a{
+	display: block;
+	color: black;
+	font-size: 15px;
+	font-weight: 400;
+	transition: all .40s ease;
+}
+footer li a:hover{
+	transform: translateY(-3px) translateX(-5px);
+	color: var(--main-color);
+}
 
-}
 @media (max-width: 1425px){
 	header{
 		padding: 16px 3%;
