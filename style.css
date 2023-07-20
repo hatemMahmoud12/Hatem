@@ -317,7 +317,7 @@ header.sticky{
 	align-items: center;
 	justify-content: center;
 }
-.col{
+.portfolio-content .col{
 	position: relative;
 	box-shadow: 8px 0px 8px 0px rgba(0,0,0,0.5);
 	border-radius: 12px;
@@ -327,7 +327,7 @@ header.sticky{
 
 
 }
-.col img{
+.portfolio-content .col img{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
@@ -390,7 +390,7 @@ header.sticky{
 	align-items: center;
 	margin-top: 5rem;
 }
-.row{
+.portfolio-content .row{
 	background: #ffffff;
 	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
 	border-radius: 12px;
@@ -415,22 +415,22 @@ header.sticky{
 .s.s-four img{
 	background: #faedce;
 }
-.row h3{
+.portfolio-content .row h3{
 	font-size: 24px;
 	font-weight: 500;
 	margin-bottom: 2px;
 }
-.row h5{
+.portfolio-content .row h5{
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 19px;
 }
-.row p{
+.portfolio-content .row p{
 	font-size: var(--p-font);
 	color: var(--secound-color);
 	line-height: 28px;
 }
-.row:hover{
+.portfolio-content .row:hover{
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
@@ -573,6 +573,18 @@ header.sticky{
 }
 **/
 
+/** footer **/
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 80px 50px;
+	}
+footer .row{
+	
+}
+footer .col{
+
+}
 @media (max-width: 1425px){
 	header{
 		padding: 16px 3%;
