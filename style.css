@@ -560,9 +560,12 @@ footer p{
 footer a{
 	display: inline-block;
 	font-size: 22px;
-	color: black;
+	color: white;
 	margin-right: 17px;
 	transition: all .40s ease;
+	background: var(--main-color);
+	padding: 10px;
+	border-radius: 30px;
 }
 footer h3{
 	color: var(--main-color);
@@ -575,13 +578,10 @@ footer li{
 }
 footer li a{
 	display: block;
-	color: white;
+	color: black;
 	font-size: 15px;
 	font-weight: 400;
 	transition: all .40s ease;
-	background: var(--main-color);
-	padding: 10px;
-	border-radius: 30px;
 }
 footer li a:hover{
 	transform: translateY(-3px) translateX(-5px);
