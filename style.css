@@ -584,10 +584,24 @@ footer{
 footer img{
 	width: 80px;
 }
+footer p{
+	color: black;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 20px 0;
+}
+footer a{
+	display: inline-block;
+	font-size: 22px;
+	color: black;
+	margin-right: 17px;
+	transition: all .40s ease;
+}
 footer h3{
 	color: var(--main-color);
 	margin-bottom: 1.5rem;
 	font-size: 20px;
+	font-weight: bold;
 }
 footer li{
 	margin-bottom: 16px;
