@@ -581,13 +581,16 @@ footer{
 	padding: 80px 13% 70px;
 	box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 	}
+.brand{
+	margin-right: 20px;
+}
 footer img{
 	width: 100px;
 }
 footer p{
 	color: black;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 10px;
 	margin: 20px 0;
 }
 footer a{
