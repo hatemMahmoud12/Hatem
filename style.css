@@ -575,8 +575,10 @@ header.sticky{
 
 /** footer **/
 footer{
-	display: flex;
-	padding: 80px 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+	gap: 3.5rem;
+	padding: 80px 13% 70px;
 	box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 	}
 footer img{
