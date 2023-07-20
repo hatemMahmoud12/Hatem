@@ -578,10 +578,14 @@ footer{
 	display: flex;
 	padding: 80px 50px;
 	}
+footer img{
+	width: 80px;
+}
 footer .row{
 	display: flex;
 	width: 85%;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	
 }
 footer .col{
@@ -646,12 +650,7 @@ footer .col{
 	.navlist a::after{
 		display: none;
 	}
-    .dot{
-        display: none;
-    }
-    .dot2{
-        display: none;
-    }
+
 	.navlist.active{
 		top: 100%;
 	}
@@ -677,12 +676,7 @@ footer .col{
 	.home-img{
 		text-align: center;
 	}
-    .dot{
-        display: none;
-    }
-    .dot2{
-        display: none;
-    }
+ 
 	.home-img img{
 		width: 440px;
 		height: auto;
