@@ -557,6 +557,7 @@ footer{
 	background: var(--main-color);
 	padding: 10px;
 	border-radius: 30px;
+	width: 50px;
 }
 footer img{
 	width: 100px;
