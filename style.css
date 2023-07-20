@@ -576,10 +576,12 @@ header.sticky{
 /** footer **/
 footer{
 	display: flex;
-	flex-wrap: wrap;
 	padding: 80px 50px;
 	}
 footer .row{
+	display: flex;
+	width: 85%;
+	flex-wrap: wrap;
 	
 }
 footer .col{
