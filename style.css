@@ -390,7 +390,7 @@ header.sticky{
 	align-items: center;
 	margin-top: 5rem;
 }
-.portfolio-content .row{
+.service-content .row{
 	background: #ffffff;
 	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
 	border-radius: 12px;
@@ -415,22 +415,22 @@ header.sticky{
 .s.s-four img{
 	background: #faedce;
 }
-.portfolio-content .row h3{
+.service-content .row h3{
 	font-size: 24px;
 	font-weight: 500;
 	margin-bottom: 2px;
 }
-.portfolio-content .row h5{
+.service-content .row h5{
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 19px;
 }
-.portfolio-content .row p{
+.service-content .row p{
 	font-size: var(--p-font);
 	color: var(--secound-color);
 	line-height: 28px;
 }
-.portfolio-content .row:hover{
+.service-content .row:hover{
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
