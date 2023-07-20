@@ -556,8 +556,6 @@ footer{
 	transition: all .40s ease;
 	background: var(--main-color);
 	border-radius: 30px;
-	width: 100px;
-	align-self: center;
 }
 footer img{
 	width: 100px;
