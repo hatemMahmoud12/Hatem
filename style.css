@@ -555,9 +555,8 @@ footer{
 	margin-right: 17px;
 	transition: all .40s ease;
 	background: var(--main-color);
-	padding: 10px;
 	border-radius: 30px;
-	width: 50px;
+	width: 100px;
 }
 footer img{
 	width: 100px;
