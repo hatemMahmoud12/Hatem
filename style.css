@@ -712,7 +712,7 @@ footer .row{
 	}
 
 }
-@media (max-width: 500px){
+@media (max-width: 610px){
 	footer .row{
 		display: block;
 	}
