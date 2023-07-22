@@ -468,8 +468,8 @@ header.sticky{
 .wrap p{
 	font-size: var(--p-font);
 }
-
-.service-content1{
+/** courses **/
+.course{
 	display: flex;
 	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	grid-gap: 2rem;
@@ -488,6 +488,7 @@ header.sticky{
 	padding: 45px 45px 45px 45px;
 	transition: ease .45s;
     width: 60%;
+	position: relative;
 }
 .row1 h3{
 	font-size: 24px;
@@ -510,8 +511,8 @@ header.sticky{
 .row1 img{
     width: 100px;
     position: absolute;
-    left: 300px;
-    top: 200em;
+    left: 20px;
+    top: 10px;
 }
 .btn1{
 	display: inline-block;
