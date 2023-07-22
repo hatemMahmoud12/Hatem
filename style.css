@@ -471,9 +471,7 @@ header.sticky{
 /** courses **/
 .course{
 	display: flex;
-	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-	grid-gap: 2rem;
-    justify-content: center;
+	justify-content: center;
 	align-items: center;
 	margin-top: 5rem;
 }
