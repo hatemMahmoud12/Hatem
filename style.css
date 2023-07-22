@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 *{
 	padding: 0;
@@ -510,7 +510,7 @@ header.sticky{
     width: 100px;
     position: absolute;
     right: 10px;
-    top: 0;
+    top: 10px;
 }
 .btn1{
 	display: inline-block;
