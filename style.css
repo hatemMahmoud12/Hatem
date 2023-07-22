@@ -656,6 +656,9 @@ footer .row{
 	.navlist.active{
 		top: 100%;
 	}
+	footer{
+		display: block;
+	}
 	.row1 img{
     display: none;
 }
