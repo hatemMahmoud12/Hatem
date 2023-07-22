@@ -656,8 +656,10 @@ footer .row{
 	.navlist.active{
 		top: 100%;
 	}
-	footer .row{
-		display: block;
+	footer{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+		gap: 3.5rem;
 	}
 	.row1 img{
     display: none;
@@ -697,13 +699,21 @@ footer .row{
 		--big-font: 3.4rem;
 		--h2-font: 2rem;
 	}
-	 footer .row{
-		display: block;
+	footer{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+		gap: 2rem;
 	}
+	
 
 	section{
 		padding: 65px 3%;
 		transition: .3s;
 	}
 
+}
+@media (max-width: 480px){
+	footer .row{
+		display: block;
+	}
 }
