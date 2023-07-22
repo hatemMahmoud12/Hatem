@@ -509,7 +509,7 @@ header.sticky{
 .row1 img{
     width: 100px;
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 0;
 }
 .btn1{
