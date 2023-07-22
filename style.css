@@ -660,7 +660,7 @@ footer .row{
     display: none;
 }
 
-@media (max-width: 100px){
+@media (max-width: 800px){
 	.row1 img{
                  width: 100px;
                  position: absolute;
