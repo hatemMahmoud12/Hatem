@@ -541,7 +541,7 @@ footer{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px,auto));
 	gap: 3.5rem;
-	padding: 80px 13% 70px;
+	padding: 70px 10% 70px;
 	box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 	}
 .brand{
@@ -606,20 +606,18 @@ footer .row{
 		padding: 70px 3%;
 		transition: .3s;
 	}
-	.contact{
-		width: 95%;
-		transition: .3s;
-	}
+	
 	:root{
 		--big-font: 4rem;
 		--h2-font: 2.3rem;
 		--p-font: 1rem;
 		transition: .3s;
 	}
-
-	
-	.row1 img{
-    display: none;}
+	footer{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+		gap: 3rem;
+	}
     
 }
 
@@ -695,6 +693,11 @@ footer .row{
 	:root{
 		--big-font: 3.4rem;
 		--h2-font: 2rem;
+	}
+	footer{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+		gap: 2.5rem;
 	}
 
 	section{
