@@ -509,8 +509,8 @@ header.sticky{
 .row1 img{
     width: 100px;
     position: absolute;
-    left: 20px;
-    top: 10px;
+    right: 0;
+    top: 0;
 }
 .btn1{
 	display: inline-block;
