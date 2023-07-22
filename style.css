@@ -607,11 +607,7 @@ header.sticky{
 		--p-font: 1rem;
 		transition: .3s;
 	}
-	footer{
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px,auto));
-		gap: 3rem;
-	}
+	
     
 }
 
@@ -649,11 +645,6 @@ header.sticky{
 
 	.navlist.active{
 		top: 100%;
-	}
-	footer{
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px,auto));
-		gap: 3.5rem;
 	}
 	.row1 img{
     display: none;
@@ -693,11 +684,6 @@ header.sticky{
 		--big-font: 3.4rem;
 		--h2-font: 2rem;
 	}
-	footer{
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px,auto));
-		gap: 2rem;
-	}
 	
 
 	section{
@@ -707,7 +693,5 @@ header.sticky{
 
 }
 @media (max-width: 610px){
-	footer .row{
-		display: block;
-	}
+	
 }
