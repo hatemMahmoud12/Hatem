@@ -695,9 +695,7 @@ footer .row{
 		--h2-font: 2rem;
 	}
 	footer{
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(150px,auto));
-		gap: 2.5rem;
+		display: block;
 	}
 
 	section{
