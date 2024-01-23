@@ -26,6 +26,9 @@
 	--text-color: #ffffff;
 	--secound-color: #a09dab;
 	--main-color: #d1331f;
+	--big-font: 5rem;
+	--h2-font: 3rem;
+	--p-font: 1.1rem;
 }
 @keyframes move{
     from{
