@@ -12,7 +12,7 @@
 	
 }
 
-.light_theme {
+:root {
 	--bg-color: #ffff;
 	--text-color: #000;
 	--secound-color: #a09dab;
@@ -21,15 +21,8 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
-.dark_theme {
-	--bg-color: #000;
-	--text-color: #ffffff;
-	--secound-color: #a09dab;
-	--main-color: #d1331f;
-	--big-font: 5rem;
-	--h2-font: 3rem;
-	--p-font: 1.1rem;
-}
+
+
 @keyframes move{
     from{
         transform: scale(0.7);
@@ -582,4 +575,12 @@ header.sticky{
 	}
 
 }
-
+@media (prefers-color-scheme: dark){
+	--bg-color: #000;
+	--text-color: #fff;
+	--secound-color: #a09dab;
+	--main-color: #d1331f;
+	--big-font: 5rem;
+	--h2-font: 3rem;
+	--p-font: 1.1rem;
+}
