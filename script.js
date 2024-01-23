@@ -24,8 +24,3 @@ sr.reveal('.home-img',{delay:350, origin:'right'})
 sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, origin:'bottom'})
 
 
-const themeBtn = document.querySelector('.theme_btn');
-
-themeBtn.addEventListener('click', ()=>{
-	document.body.classlist.toggle('dark_theme');
-})
