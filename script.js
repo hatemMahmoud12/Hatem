@@ -24,8 +24,8 @@ sr.reveal('.home-img',{delay:350, origin:'right'})
 sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, origin:'bottom'})
 
 
-const darkmode = document.queryselector('dark');
+const themeBtn = document.queryselector('.theme_btn');
 
-darkmode.addEventListener('click', ()=>{
-	document.body.classlist.toggle('dark')
+themeBtn.addEventListener('click', ()=>{
+	document.body.classlist.toggle('dark_theme')
 })
