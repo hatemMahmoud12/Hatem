@@ -588,7 +588,7 @@ header.sticky{
 	border: 3px solid white;
 	}
 	.home{
-		background: linear-gradient(url("images/pexels-jorge-jesus-614117.jpg"),rgba(0,0,0,0.8) 8%, #191919));
+		background:url("images/pexels-jorge-jesus-614117.jpg");
 		background-size: cover;
 	}
 }
