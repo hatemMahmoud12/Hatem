@@ -17,7 +17,7 @@
 	--text-color: #000;
 	--secound-color: #a09dab;
 	--main-color: #d1331f;
-	--big-font: 4rem;
+	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
@@ -581,8 +581,5 @@ header.sticky{
 	--text-color: #fff;
 	--secound-color: #a09dab;
 	--main-color: #d1331f;
-	--big-font: 4rem;
-	--h2-font: 3rem;
-	--p-font: 1.1rem;
 	}
 }
