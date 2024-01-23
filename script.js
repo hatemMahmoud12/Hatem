@@ -28,6 +28,4 @@ const themeBtn = document.queryselector('.theme_btn');
 
 themeBtn.addEventListener('click', ()=>{
 	alert('hello');
-	document.body.classlist.toggle('light_theme');
-	
 });
