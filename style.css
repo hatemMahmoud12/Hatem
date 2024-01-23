@@ -582,7 +582,8 @@ header.sticky{
 	--secound-color: #a09dab;
 	--main-color: #d1331f;
 	}
-	.wrap{
+	.service-content .row{
 	background: #000;
 	box-shadow: 18px 0px 87px 0px rgb(255,255,255 /7%);
+	}
 }
