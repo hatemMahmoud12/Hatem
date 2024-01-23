@@ -485,6 +485,7 @@ header.sticky{
     background-position: right;
 	padding: 45px 45px 45px 45px;
 	transition: ease .45s;
+	width: 100%;
 	position: relative;
 }
 .row1 h3{
@@ -533,7 +534,7 @@ header.sticky{
 	display: flex;
 }
 .row1:hover{
-	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/couse.png)no-repeat;
 }
 /** محتاج تعديل بعد التصوير والانتهاء من الكورس
 .btn1:hover{
