@@ -577,9 +577,9 @@ header.sticky{
 }
 @media (prefers-color-scheme: dark){
 	:root {
-	--bg-color: #dddddd;
-	--text-color: #fff;
-	--secound-color: #a09dab;
-	--main-color: #d1331f;
+	--bg-color: #000000;
+	--text-color: #0B60B0;
+	--secound-color: #40A2D8;
+	--main-color: #F0EDCF;
 	}
 }
