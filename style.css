@@ -474,8 +474,7 @@ header.sticky{
 	justify-content: center;
 	align-items: center;
 	margin-top: 5rem;
-	width: 100%;
-	height: 100%;
+	
 }
 
 
@@ -486,8 +485,8 @@ header.sticky{
     background-size: cover;
 	padding: 45px 45px 45px 45px;
 	transition: ease .45s;
-	width: 100%;
-	height: 100%;
+	width: 100vh;
+	height: 100vh;
 }
 .row1 h3{
 	display: none;
@@ -534,6 +533,8 @@ header.sticky{
 }
 .row1:hover{
 	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/couse.png)no-repeat;
+	width: 100vh;
+	height: 100vh;
 }
 /** محتاج تعديل بعد التصوير والانتهاء من الكورس
 .btn1:hover{
