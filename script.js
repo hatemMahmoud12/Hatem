@@ -26,6 +26,6 @@ sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, or
 
 const darkmode = document.queryselector('dark');
 
-dark.addEventListener('click', ()=>{
+darkmode.addEventListener('click', ()=>{
 	document.body.classlist.toggle('dark')
 })
