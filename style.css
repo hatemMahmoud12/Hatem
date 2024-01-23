@@ -12,7 +12,7 @@
 	
 }
 
-:root{
+.light_theme {
 	--bg-color: #ffff;
 	--text-color: #000;
 	--secound-color: #a09dab;
@@ -21,7 +21,7 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
-.dark{
+.dark_theme {
 	--bg-color: #000;
 	--text-color: #ffffff;
 	--secound-color: #a09dab;
