@@ -529,7 +529,11 @@ header.sticky{
     /**cursor: pointer;**/
 }
 .row1:hover h3,h5,p,.btn1{
+	
 	display: flex;
+}
+.row1:hover{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
 }
 /** محتاج تعديل بعد التصوير والانتهاء من الكورس
 .btn1:hover{
