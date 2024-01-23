@@ -4,13 +4,8 @@ window.addEventListener ("scroll", function() {
 	header.classList.toggle ("sticky", window.scrollY > 0);
 });
 
-let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.navlist');
 
-menu.onclick = () => {
-	menu.classList.toggle('bx-x');
-	navlist.classList.toggle('active');
-};
 
 window.onscroll = () => {
 	menu.classList.remove('bx-x');
@@ -28,8 +23,9 @@ sr.reveal('.home-img',{delay:350, origin:'right'})
 
 sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, origin:'bottom'})
 
-		(adsbygoogle = window.adsbygoogle || []).push({});
 
-function darkmode(){
-	document.body.classlist.toggle('dark');
-}
+const darkmode = document.queryselector('dark');
+
+dark.addEventListener('click', ()=>{
+	document.body.classlist.toggle('dark')
+})
