@@ -30,3 +30,6 @@ sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, or
 
 		(adsbygoogle = window.adsbygoogle || []).push({});
 
+function darkmode(){
+	document.body.classlist.toggle('dark');
+}
