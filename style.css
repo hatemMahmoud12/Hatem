@@ -526,7 +526,7 @@ header.sticky{
 	transition: ease .50s;
     /**cursor: pointer;**/
 }
-.row1:hover h3,h5,p,.btn1{
+.row1:hover h3,h5,p{
 	
 	display: flex;
 }
