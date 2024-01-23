@@ -21,7 +21,12 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
-
+.dark{
+	--bg-color: #000;
+	--text-color: #ffffff;
+	--secound-color: #a09dab;
+	--main-color: #d1331f;
+}
 @keyframes move{
     from{
         transform: scale(0.7);
