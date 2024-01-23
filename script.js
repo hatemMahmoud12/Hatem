@@ -29,3 +29,8 @@ sr.reveal('.home-img',{delay:350, origin:'right'})
 sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, origin:'bottom'})
 
 		(adsbygoogle = window.adsbygoogle || []).push({});
+$().ready(function(){
+$('button').click(function(){
+	alert("test");
+});
+});
