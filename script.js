@@ -27,5 +27,7 @@ sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, or
 const themeBtn = document.queryselector('.theme_btn');
 
 themeBtn.addEventListener('click', ()=>{
-	document.body.classlist.toggle('.dark_theme')
-})
+	alert('hello');
+	document.body.classlist.toggle('light_theme');
+	
+});
