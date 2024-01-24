@@ -12,7 +12,8 @@
 *{
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;
+
 	font-family: 'cairo','Jost';
 	list-style: none;
 	text-decoration: none;
@@ -29,7 +30,8 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
-
+
+
 
 body{
 	background: var(--bg-color);
@@ -102,6 +104,7 @@ position: absolute;
 right: 0;
 bottom: 0;
 z-index: -1;
+background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
 }
 @media (min-aspect-ratio: 16/9){
 .back-video{
@@ -173,7 +176,8 @@ animation: 0.9s move;
 	transform: scale(1.1);
 	background: var(--main-color);
 	transition: .5s;
-}
+}
+
 .home-img img{
 	max-width: 100%;
 	width: 640px;
