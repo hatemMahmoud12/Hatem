@@ -95,7 +95,7 @@ section{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	grid-gap: 4rem;
-background:URL("images",linear-gradient(rgba(0,0,0,0.5) 0%, #191919));
+background:URL("images/pexels-neo-2653362.jpg",linear-gradient(rgba(0,0,0,0.5) 0%, #191919));
 }
 .home-text h1{
 	margin: 10px 0px 25px;
