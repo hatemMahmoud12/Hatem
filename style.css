@@ -277,7 +277,7 @@ header.sticky{
 	box-shadow: 8px 0px 8px 0px rgba(0,0,0,0.5);
 	border-radius: 12px;
 	height: 200px;
-		width: 380px;
+	width: 380px;
 	align-self: center;
 
 
@@ -287,9 +287,6 @@ header.sticky{
 	width: 100%;
 	object-fit: cover;
 		border-radius: 12px;
-
-	
-
 }
 .layer{
 	height: 100%;
@@ -332,10 +329,12 @@ header.sticky{
 	transform: translateX(-50%);
 	opacity: 0;
 	transition: all .40s;
+	cursor: text;
 }
 .layer:hover h5{
 	bottom: 48%;
 	opacity: 1;
+	cursor: text;
 }
 
 .service-content{
@@ -363,34 +362,19 @@ header.sticky{
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 19px;
+	cursor: text;
 }
 .service-content .row p{
 	font-size: var(--p-font);
 	color: var(--secound-color);
 	line-height: 28px;
+	cursor: text;
 }
 .service-content .row:hover{
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
 
-
-.wrap{
-	background: #ffffff;
-	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
-	border-radius: 12px;
-	padding: 50px 50px 50px 50px;
-	transition: ease .40s;
-	cursor: pointer;
-}
-.wrap h3{
-	font-size: 24px;
-	font-weight: 500;
-	margin-bottom: 2px;
-}
-.wrap p{
-	font-size: var(--p-font);
-}
 /** courses **/
 
 
@@ -423,42 +407,12 @@ header.sticky{
 }
 
 @media (max-width: 970px){
-	#menu-icon{
-		display: block;
-	}
+	
 	.home{
 		min-height: 80vh;
 	}
-	.navlist{
-		position: absolute;
-		top: -600px;
-		left: 0;
-		right: 0;
-		flex-direction: column;
-		background: var(--main-color);
-		text-align: right;
-		transition: all .40s;
-	}
-	.navlist a{
-		display: block;
-		padding: 1.2rem;
-		margin: 1.5rem;
-		border-right: 2px solid var(--bg-color);
-		color: var(--bg-color);
-	}
-	.navlist a:hover{
-		background: var(--bg-color);
-		color: var(--main-color);
-	}
-	.navlist a::after{
-		display: none;
-	}
 
-	.navlist.active{
-		top: 100%;
-	}
-
-
+	
 }
 
 @media (max-width: 800px){
