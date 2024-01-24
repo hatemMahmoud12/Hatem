@@ -1,15 +1,23 @@
  @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
+@keyframes move{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
 *{
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
-
+	box-sizing: border-box;
 	font-family: 'cairo','Jost';
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
-	
+ animation: 0.9s move;
 }
 
 :root {
@@ -21,19 +29,11 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
-
-
-@keyframes move{
-    from{
-        transform: scale(0.7);
-    }
-    to{
-        transform: scale(1);
-    }
-}
+
 
 body{
 	background: var(--bg-color);
+ box-shadow: 18px 0px 87px 0px rgb(255 255    255 / 7%);
 	color: var(--text-color);
 }
 header{
@@ -152,32 +152,12 @@ span{
 	transform: scale(1.1);
 	background: var(--main-color);
 	transition: .5s;
-}
-.btn{
-	display: inline-block;
-	color: var(--bg-color);
-	background: var(--main-color);
-	font-size: var(--p-font);
-	padding: 10px 40px;
-	font-weight: 500;
-	line-height: 24px;
-	border-radius: 30px;
-	transition: ease .40s;
-            animation: 0.9s move;
-
-}
-a img{
-border-radius: 50%;
-width:15px;
-}
-.btn:hover{
-	transform: scale(1.1);
-}
+}
 .home-img img{
 	max-width: 100%;
 	width: 640px;
 	height: auto;
-            animation: 0.9s move;
+ animation: 0.9s move;
 
 }
 header.sticky{
