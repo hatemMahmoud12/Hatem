@@ -17,7 +17,7 @@
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
- animation: 0.9s move;
+ 
 }
 
 :root {
@@ -33,7 +33,6 @@
 
 body{
 	background: var(--bg-color);
- box-shadow: 18px 0px 87px 0px rgb(255 255    255 / 7%);
 	color: var(--text-color);
 }
 header{
@@ -53,6 +52,7 @@ header{
 	max-width: 100%;
 	width: 85px;
 	height: 64px;
+animation: 0.9s move;
 }
 .navlist{
 	display: flex;
@@ -145,7 +145,7 @@ span{
 	color: var(--bg-color);
 	margin-right: 22px;
 	margin-bottom: 30px;   
-
+animation: 0.9s move;
 
 }
 .social a:hover{
