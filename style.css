@@ -447,7 +447,9 @@ header.sticky{
 }
 
 @media (max-width: 970px){
-	
+	.toggle-btn{
+		display: flex;
+	}
 	.home{
 		min-height: 80vh;
 	}
@@ -466,6 +468,7 @@ header.sticky{
 }
 
 @media (max-width: 800px){
+	
 	.home{
 		grid-template-columns: 1fr;
 		min-height: 130vh;
