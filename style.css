@@ -95,6 +95,7 @@ section{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	grid-gap: 4rem;
+ background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
 }
 .back-video{
 position: absolute;
