@@ -447,9 +447,7 @@ header.sticky{
 }
 
 @media (max-width: 970px){
-	.toggle-btn{
-		display: flex;
-	}
+	
 	.home{
 		min-height: 80vh;
 	}
@@ -458,6 +456,9 @@ header.sticky{
 	}
 	.navlist .top-btn{
 		display: block;
+	}
+	.toggle-btn{
+		display: flex;
 	}
 	.dropdown-menu{
 		display: block;
