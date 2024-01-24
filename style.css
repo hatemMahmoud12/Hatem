@@ -425,8 +425,11 @@ header.sticky{
 	.home{
 		min-height: 80vh;
 	}
-	.navlist ,.top-btn{
+	.navlist li,.top-btn{
 		display: none;
+	}
+	.navlist .top-btn{
+		display: block;
 	}
 	
 
