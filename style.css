@@ -96,6 +96,26 @@ section{
 	align-items: center;
 	grid-gap: 4rem;
 }
+.back-video{
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+.back-video{
+ width: 100%;
+ height: auto;
+}
+}
+
+@media (max-aspect-ratio: 16/9){
+.back-video{
+ width: auto;
+ height: 100%;
+}
+}
+
 .home-text h1{
 	margin: 10px 0px 25px;
 	font-size: var(--big-font);
