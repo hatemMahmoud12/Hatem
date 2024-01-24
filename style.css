@@ -97,6 +97,28 @@ animation: 0.9s move;
 .top-btn:active{
 	scale: 0.95;
 }
+.dropdown-menu{
+	position: absolute;
+	right: 2rem;
+	top: 60px;
+	width: 300px;
+	background: rgba(255,255,255,0.1);
+	backdrop-filter: blur(15px);
+	border-radius: 30px;
+	overflow: hidden;
+} 
+
+.drpdown-menu li{
+	padding: 0.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dropdown-menu .top-btn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
 /** home **/
 
 section{
