@@ -354,9 +354,8 @@ justify-content: center;
 
 footer svg{
 position: absolute;
-height: 225px;
 bottom: 0;
-width: 100vh;
+width: 100%;
 }
 /** responsive **/
 
