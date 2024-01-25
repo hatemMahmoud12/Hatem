@@ -345,12 +345,19 @@ margin: 0;
 justify-content: center;
 align-items: center;
 }
+
 footer .social{
 display: flex;
 align-items: center;
 justify-content: center;
 }
 
+footer svg{
+position: absolute;
+height: 225px;
+bottom: 0;
+width: 100vh;
+}
 /** responsive **/
 
 @media (max-width: 1425px){
