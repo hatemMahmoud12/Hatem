@@ -109,8 +109,7 @@ animation: 0.9s move;
 	border-radius: 30px;
 	overflow: hidden;
 } 
-.dropdown-menu.open{
-	display: block;
+.dropdown-menu .open{
 	height: 240px;
 }
 .drpdown-menu li{
