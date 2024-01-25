@@ -100,16 +100,14 @@ animation: 0.9s move;
 .dropdown-menu{
 	display: none;
 	position: absolute;
-	right: 2rem;
 	top: 60px;
-	height: 0;
 	width: 300px;
 	background: rgba(255,255,255,0.1);
 	backdrop-filter: blur(15px);
 	border-radius: 30px;
 	overflow: hidden;
 } 
-.dropdown-menu .open{
+.dropdown-menu.open{
 	height: 240px;
 }
 .drpdown-menu li{
