@@ -110,6 +110,7 @@ animation: 0.9s move;
 	overflow: hidden;
 } 
 .dropdown-menu.open{
+	display: block;
 	height: 240px;
 }
 .drpdown-menu li{
