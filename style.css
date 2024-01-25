@@ -130,7 +130,7 @@ animation: 0.9s move;
 
 .items{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(220px, 100%));
 	grid-gap: 2rem;
 	align-items: center;
 	text-align: center;
@@ -296,7 +296,7 @@ animation: 0.9s move;
 
 .service-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 10%));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
