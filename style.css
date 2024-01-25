@@ -225,8 +225,8 @@ animation: 0.9s move;
 	margin-top: 5rem;
 	text-align: center;
 	width: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
 	align-items: center;
 	justify-content: center;
 }
