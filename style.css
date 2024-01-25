@@ -224,16 +224,14 @@ animation: 0.9s move;
 	align-items: center;
 	margin-top: 5rem;
 	text-align: center;
-	width: 100%;
-	padding-right: 50px;
-	padding-left: 50px;
+	width: 100%;
 	align-items: center;
 	justify-content: center;
 }
 .portfolio-content .col{
 	position: relative;
-	box-shadow: 8px 0px 8px 0px rgba(0,0,0,0.5);
-	border-radius: 12px;
+	box-shadow: 8px 0px 8px 0px rgba(0,0,0,0.2);
+	border-radius: 20px;
 	height: 200px;
 
 	align-self: center;
