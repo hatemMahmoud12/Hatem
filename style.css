@@ -61,7 +61,7 @@ section{
 	grid-gap: 4rem;
 background: URL("images/back.png")no-repeat;
 background-size: cover;
-background-position: right;
+background-position: left;
 }
 
 .home-text h1{
