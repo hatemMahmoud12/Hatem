@@ -353,6 +353,7 @@ justify-content: center;
 
 footer svg{
 padding: 0;
+fill: var(--main-color);
 }
 /** responsive **/
 
