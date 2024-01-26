@@ -339,22 +339,8 @@ animation: 0.9s move;
 /** contact **/
 
 /** footer **/
-footer{
- display: block;
-align-items: center;
-justify-content: center;
-}
 
-footer .social{
-display: flex;
-align-items: center;
-justify-content: center;
-}
 
-footer svg{
-padding: 0;
-fill: var(--main-color);
-}
 /** responsive **/
 
 @media (max-width: 1425px){
