@@ -355,6 +355,7 @@ justify-content: center;
 footer svg{
 margin: 0;
 padding: 0;
+transform: translateY(10px);
 }
 /** responsive **/
 
