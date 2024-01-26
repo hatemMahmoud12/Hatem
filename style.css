@@ -341,22 +341,8 @@ animation: 0.9s move;
 /** footer **/
 footer{
  display: block;
- position: relative;
- top: -2px;
- height: 200px;
- background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 980 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(47, 73, 94, 1)" d="M 0 0 C 501 0 0 110 501 110 L 501 110 L 501 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 500 110 C 980 110 500 0 980 0 L 980 0 L 980 0 L 500 0 Z" stroke-width="0"></path> </svg>');
- background-size: cover;
- background-repeat: no-repeat;
 align-items: center;
 justify-content: center;
-}
-
-@media (max-width:979px) {
-footer {
-   background-size: contain;
- }
-}
-
 }
 
 footer .social{
@@ -365,8 +351,7 @@ align-items: center;
 justify-content: center;
 }
 
-footer svg{
-margin: 0;
+footer svg{
 padding: 0;
 transform: translateY(10px);
 }
