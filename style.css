@@ -59,6 +59,7 @@ section{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	grid-gap: 4rem;
+background: URL("images/back.png")no-repeat;
 }
 
 .home-text h1{
