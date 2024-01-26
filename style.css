@@ -61,7 +61,7 @@ section{
 	grid-gap: 4rem;
 background: URL("images/back.png")no-repeat;
 background-size: cover;
-background-position: left;
+background-position: center;
 }
 
 .home-text h1{
@@ -389,6 +389,8 @@ animation: 0.9s move;
 		grid-template-columns: 1fr;
 		min-height: 130vh;
 		grid-gap: 1rem;
+  background-position: left;
+}
 	}
 	.home-text{
 		padding-top: 55px;
