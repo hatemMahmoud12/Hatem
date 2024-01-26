@@ -60,6 +60,8 @@ section{
 	align-items: center;
 	grid-gap: 4rem;
 background: URL("images/back.png")no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 .home-text h1{
