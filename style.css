@@ -68,8 +68,7 @@ background-position: center;
 	margin: 10px 0px 25px;
 	font-size: var(--big-font);
 	line-height: 1;
-	font-weight: 500;
-    -webkit-text-stroke: 1px black;
+	font-weight: bold;
 }
 ::-webkit-scrollbar{
     width: 0;
