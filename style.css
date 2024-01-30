@@ -34,6 +34,10 @@
  --shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
 }
 
+::-webkit-scrollbar{
+    width: 0;
+}
+
 
 
 body{
@@ -41,14 +45,20 @@ body{
 	color: var(--text-color);
 }
 
+span{
+	color: var(--main-color);         
+}
+
+
 .btn{
  width: 500px;
  text-align: center;
 padding: 8px 10px;
-	color: var(--text-color);
+	color: white;
 	background-color: var(--main-color);
 	border-radius: 30px;
 	margin-top: 10px;
+cursor: pointer;
 }
 
 /** header **/
@@ -73,9 +83,6 @@ section{
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 	grid-gap: 4rem;
-background: URL("images/back.png")no-repeat;
-background-size: cover;
-background-position: center;
 }
 
 .home-text h1{
@@ -84,9 +91,7 @@ background-position: center;
 	line-height: 1;
 	font-weight: bold;
 }
-::-webkit-scrollbar{
-    width: 0;
-}
+
 .home-text h5{
 	margin-bottom: 23px;
 	font-size: 19px;
@@ -94,11 +99,7 @@ background-position: center;
 
 
 }
-span{
-	color: var(--main-color);         
 
-
-}
 .home-text h3{
 	color: var(--main-color);
 	font-size: 20px;
@@ -170,7 +171,7 @@ animation: 0.9s move;
 .sub-box:hover{
 	background: #ffffff;
 	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 20%);
-	border-radius: 12px;
+	border-radius: 30px;
 	will-change: transform;
 	transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05,1.05,1.05);
 }
@@ -259,7 +260,7 @@ animation: 0.9s move;
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-		border-radius: 12px;
+		border-radius: 30px;
 }
 .layer{
 	height: 100%;
@@ -267,11 +268,11 @@ animation: 0.9s move;
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-radius: 12px;
+	border-radius: 30px;
 	transition: all .40s;
 }
 .layer:hover{
-	background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
+	background: linear-gradient(rgba(0,0,0,0.5) 0%, var(--main-color));
 }
 .layer h3{
 	position: absolute;
@@ -327,7 +328,7 @@ animation: 0.9s move;
  width: 100%;
 	background: #ffffff;
 	box-shadow: var(--shadow);
-	border-radius: 20px;
+	border-radius: 30px;
 	padding: 45px 45px 45px 45px;
 	transition: ease .45s;
 }
@@ -437,23 +438,14 @@ animation: 0.9s move;
 
 @media (max-width: 800px){
 	
-	.home{
+ .home{
 		grid-template-columns: 1fr;
 		min-height: 130vh;
 		grid-gap: 1rem;
-}
-	}
+ }
 	.home-text{
 		padding-top: 55px;
-	}
-	.home-img{
-		text-align: center;
-	}
- 
-	.home-img img{
-		width: 440px;
-		height: auto;
-	}
+	}
 	.about{
 		grid-template-columns: 1fr;
 	}
