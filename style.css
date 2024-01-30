@@ -338,65 +338,6 @@ animation: 0.9s move;
 
 /** courses **/
 
-.courses-container {
-	display: grid;
-	grid-gap: 2rem;
-	align-items: center;
-	margin-top: 5rem;
-	justify-content: center;
-
-}
-.courses-container .card{
-		width: 100%;
-		background: #fff;
-		padding: 16px;
-		box-shadow: var(--shadow);
-		border-radius: 30px;
-}
-
-.courses-container .card a{
-	color: #14213d;
-	display: flex;
- flex-direction: column;
- justify-content: space-between;
- height: 100%;
-}
-
-.courses-container .card img {
-	margin: -16px;
-	object-fit: cover;
- border-radius: 30px;
-}
-
-.courses-container .card h2.title{
-font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 2px;
- margin-top: 2px;
-}
-
-.courses-container .card .description{
-font-size: var(--p-font);
-	color: var(--secound-color);
-	line-height: 28px;
-	cursor: text;
-}
-
-.courses-container .card .info {
-	display: flex;
-	justify-content: space-between;
-	margin: -16px;
- margin-top: 20px;
- padding: 12px 16px;
-	align-items: center;
-}
-
-.courses-container .card .info .price{
-	 font-size: 28px;
-		font-weight: bold;
-		color: var(--main-color);
-}
-
 /** contact **/
 
 /** footer **/
