@@ -355,9 +355,9 @@ animation: 0.9s move;
 }
 
 .courses-container .row{
-	padding-top: 0;
- padding-left: 20px;
- padding-right: 20px;
+	padding-top: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
 }
 
 .courses-container .row img{
