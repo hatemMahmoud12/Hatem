@@ -1,3 +1,5 @@
+/** main code **/
+
  @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 @keyframes move{
@@ -38,6 +40,13 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+
+.btn{
+ padding: 10px 10px;
+	color: var(--text-color);
+	background-color: var(--main-color);
+}
+
 /** header **/
 
 header.sticky{
@@ -122,14 +131,7 @@ animation: 0.9s move;
 	transition: .5s;
 }
 
-.home-img img{
-	max-width: 100%;
-	width: 640px;
-	height: auto;
- animation: 0.9s move;
-
-}
-
+/** what is it **/
 
 .items{
 	display: grid;
@@ -168,6 +170,11 @@ animation: 0.9s move;
 	will-change: transform;
 	transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05,1.05,1.05);
 }
+
+/** what is it **/
+
+
+/** about **/
 
 .about{
 	display: grid;
@@ -220,6 +227,9 @@ animation: 0.9s move;
 	color: var(--secound-color);
 	line-height: 28px;
 }
+
+/** works **/
+
 .portfolio-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
@@ -335,6 +345,7 @@ animation: 0.9s move;
 	color: var(--secound-color);
 	line-height: 28px;
 	cursor: text;
+ margin-bottom: 5px;
 }
 
 .row:hover{
@@ -364,6 +375,10 @@ animation: 0.9s move;
  width: 100%;
 	box-shadow: var(--shadow);
  border-radius: 30px; 
+}
+
+.courses-container .row:hover{
+
 }
 
 /** contact **/
@@ -416,7 +431,6 @@ animation: 0.9s move;
 		grid-template-columns: 1fr;
 		min-height: 130vh;
 		grid-gap: 1rem;
-  background-position: left;
 }
 	}
 	.home-text{
@@ -449,6 +463,7 @@ animation: 0.9s move;
 	}
 
 }
+
 /** dark style **/
 @media (prefers-color-scheme: dark){
 	:root {
