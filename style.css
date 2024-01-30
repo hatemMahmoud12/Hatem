@@ -296,6 +296,8 @@ animation: 0.9s move;
 	cursor: text;
 }
 
+/** OUR SERVICES **/
+
 .service-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 10%));
@@ -304,39 +306,56 @@ animation: 0.9s move;
 	margin-top: 5rem;
 	justify-content: center;
 }
-.service-content .row{
+
+/** row style **/
+
+.row{
  width: 100%;
 	background: #ffffff;
-	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+	box-shadow: var(--shadow);
 	border-radius: 20px;
 	padding: 45px 45px 45px 45px;
 	transition: ease .45s;
 }
 
 
-.service-content .row h3{
+.row h3{
 	font-size: 24px;
 	font-weight: 500;
 	margin-bottom: 2px;
 }
-.service-content .row h5{
+.row h5{
 	font-size: 17px;
 	font-weight: 500;
 	margin-bottom: 19px;
 	cursor: text;
 }
-.service-content .row p{
+.row p{
 	font-size: var(--p-font);
 	color: var(--secound-color);
 	line-height: 28px;
 	cursor: text;
 }
-.service-content .row:hover{
+
+.row:hover{
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);
 }
 
 /** courses **/
+
+
+.courses-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 10%));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 5rem;
+	justify-content: center;
+}
+.courses-container .row img{
+ width: 250px:
+}
 
 /** contact **/
 
