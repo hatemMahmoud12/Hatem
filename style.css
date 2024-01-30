@@ -337,11 +337,22 @@ animation: 0.9s move;
 }
 
 /** courses **/
+
+.courses-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 10%));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 5rem;
+	justify-content: center;
+
+}
 .courses-container .card{
 		width: 240px;
 		background: #fff;
 		padding: 16px;
 		box-shadow: var(--shadow);
+		borde-radius: 30px;
 }
 
 .courses-container .card a{
@@ -349,6 +360,7 @@ animation: 0.9s move;
 	display: flex;
  flex-direction: column;
  justify-content: space-between;
+ height: 100%;
 }
 
 .courses-container .card img {
@@ -379,6 +391,21 @@ animation: 0.9s move;
 	color: #333;
 	margin: 0;
 	line-height: 1.7;
+}
+
+.courses-container .card .info {
+	display: flex;
+	justify-content: space-between;
+	margin: -16px;
+ margin-top: 20px;
+ padding: 12px 16px;
+	align-items: center;
+}
+
+.courses-container .card .info .price{
+	 font-size: 28px;
+		font-weight: bold;
+		color: var(--main-color);
 }
 
 /** contact **/
