@@ -353,6 +353,13 @@ animation: 0.9s move;
 	margin-top: 5rem;
 	justify-content: center;
 }
+
+.courses-container .row{
+	padding-top: 0;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
 .courses-container .row img{
  width: 100%;
  border-radius: 30px; 
