@@ -194,7 +194,7 @@ animation: 0.9s move;
 
 /** works **/
 
-.works{
+.works-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	grid-gap: 2rem;
