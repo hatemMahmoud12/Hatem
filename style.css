@@ -347,7 +347,7 @@ animation: 0.9s move;
 
 }
 .courses-container .card{
-		width: 240px;
+		width: 100%;
 		background: #fff;
 		padding: 16px;
 		box-shadow: var(--shadow);
@@ -365,13 +365,14 @@ animation: 0.9s move;
 .courses-container .card img {
 	margin: -16px;
 	object-fit: cover;
+ border-radius: 30px;
 }
 
 .courses-container .card h2.title{
 font-size: 24px;
-	font-weight: 500;
+	font-weight: bold;
 	margin-bottom: 2px;
-
+ margin-top: 2px;
 }
 
 .courses-container .card .description{
