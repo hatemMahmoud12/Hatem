@@ -42,6 +42,7 @@ body{
 }
 
 .btn{
+ width: 10%;
  padding: 10px 10px;
 	color: var(--text-color);
 	background-color: var(--main-color);
