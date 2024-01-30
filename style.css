@@ -45,6 +45,8 @@ body{
  padding: 10px 10px;
 	color: var(--text-color);
 	background-color: var(--main-color);
+	border-radius: 30px;
+	margin-top: 10px;
 }
 
 /** header **/
@@ -345,7 +347,6 @@ animation: 0.9s move;
 	color: var(--secound-color);
 	line-height: 28px;
 	cursor: text;
- margin-bottom: 5px;
 }
 
 .row:hover{
@@ -379,6 +380,7 @@ animation: 0.9s move;
 
 .courses-container .row:hover{
 
+ transform: scale(1.1);
 }
 
 /** contact **/
