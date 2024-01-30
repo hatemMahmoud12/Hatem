@@ -235,7 +235,7 @@ animation: 0.9s move;
 
 /** works **/
 
-.portfolio-content{
+.works{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	grid-gap: 2rem;
@@ -246,7 +246,7 @@ animation: 0.9s move;
 	align-items: center;
 	justify-content: center;
 }
-.portfolio-content .col{
+.works .col{
 	position: relative;
 	box-shadow: 8px 0px 8px 0px rgba(0,0,0,0.2);
 	border-radius: 20px;
@@ -256,7 +256,7 @@ animation: 0.9s move;
 
 
 }
-.portfolio-content .col img{
+.works .col img{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
