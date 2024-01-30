@@ -354,7 +354,8 @@ animation: 0.9s move;
 	justify-content: center;
 }
 .courses-container .row img{
- width: 250px:
+ width: 100%;
+ border-radius: 30px; 
 }
 
 /** contact **/
