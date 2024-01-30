@@ -362,6 +362,7 @@ animation: 0.9s move;
 
 .courses-container .row img{
  width: 100%;
+	box-shadow: var(--shadow);
  border-radius: 30px; 
 }
 
@@ -448,6 +449,7 @@ animation: 0.9s move;
 	}
 
 }
+/** dark style **/
 @media (prefers-color-scheme: dark){
 	:root {
 	--bg-color: #000;
