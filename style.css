@@ -339,8 +339,7 @@ animation: 0.9s move;
 /** courses **/
 
 .courses-container {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 10%));
+	display: grid;
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
@@ -352,7 +351,7 @@ animation: 0.9s move;
 		background: #fff;
 		padding: 16px;
 		box-shadow: var(--shadow);
-		borde-radius: 30px;
+		border-radius: 30px;
 }
 
 .courses-container .card a{
@@ -368,29 +367,18 @@ animation: 0.9s move;
 	object-fit: cover;
 }
 
-.courses-container .card .category{
-	position: absolute;
-	top: 8px;
-	right: 8px;
-	background: var(--main-color);
-	color: #fff;
-	padding: 2px 16px;
-	font-size: 13px;
-	text-transform: uppercase;
-	border-radius: 10px;
-}
-
 .courses-container .card h2.title{
-	font-size: 20px;
-	margin: 28px 0 10px 0;
- line-height: 1.4;
+font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 2px;
+
 }
 
 .courses-container .card .description{
-	font-size: 15px;
-	color: #333;
-	margin: 0;
-	line-height: 1.7;
+font-size: var(--p-font);
+	color: var(--secound-color);
+	line-height: 28px;
+	cursor: text;
 }
 
 .courses-container .card .info {
