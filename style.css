@@ -381,38 +381,7 @@ animation: 0.9s move;
 .contact-row section.right{
 	flex-basis: 60%;
 }
-section.left .contactTitle h2{
-	position: relative;
-	font-size: 28px;
-	color: black;
-	display: inline-block;
-	margin-bottom: 25px;
-}
-section.left .contactTitle h2::before{
-	content: '';
-	position: absolute;
-	width: 50%;
-	height: 1px;
-	background-color: #888;
-	top: 120%;
-	left: 0;
-}
-section.left .contactTitle h2::after{
-	content: '';
-	position: absolute;
-	width: 25%;
-	height: 3px;
-	background-color:  var(--main-color);
-	top: calc(120% - 1px);
-	left: 0;
-}
-section.left .contactTitle p{
-	font-size: 17px;
-	color: black;
-	letter-spacing: 1px;
-	line-height: 1.2;
-	padding-bottom: 22px;
-}
+
 section.left .contactInfo{
 	margin-bottom: 16px;
 }
@@ -572,13 +541,8 @@ color: white;
 .iconGroup .details span:nth-child(1){
 	color: white;
 }
-section.left .contactTitle h2{
-	color: white;
-}
 .iconGroup .icon i{
 	color: white;
 }
-section.left .contactTitle p{
-	color: white;
-}
+
 }
