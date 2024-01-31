@@ -408,7 +408,7 @@ section.left .contactTitle h2::after{
 }
 section.left .contactTitle p{
 	font-size: 17px;
-	color: #ccc;
+	color: black;
 	letter-spacing: 1px;
 	line-height: 1.2;
 	padding-bottom: 22px;
@@ -431,7 +431,7 @@ section.left .contactInfo{
 }
 .iconGroup .icon i{
 	font-size: 20px;
-	color: #ddd;
+	color: black;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -439,7 +439,7 @@ section.left .contactInfo{
 }
 .iconGroup .details span{
 	display: block;
-	color: #888;
+	color: black;
 	font-size: 18px;
 }
 .iconGroup .details span:nth-child(1){
