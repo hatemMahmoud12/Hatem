@@ -446,102 +446,17 @@ section.left .contactInfo{
 	text-transform: uppercase;
 	color: #ccc;
 }
-section.left .socialMedia{
+section.left .social{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
 	margin: 22px 0px 20px;
 }
-.socialMedia a{
-	width: 35px;
-	height: 35px;
-	text-decoration: none;
-	text-align: center;
-	margin-right: 15px;
-	border-radius: 5px;
-	background-color:  var(--main-color);
-	transition: 0.4s;
-}
-.socialMedia a i{
-	color: #ddd;
-	font-size: 18px;
-	line-height: 35px;
-	border: 1px solid transparent;
-	transition-delay: 0.4s;
-}
-.socialMedia a:hover{
-	transform: translateY(-5px);
-	background-color: #2e2e2e;
-	color: dodgerblue;
-	border: 1px solid  var(--main-color);
-}
-.socialMedia a:hover i{
-	color:  var(--main-color);
-}
 
 
-.row section.right .messageForm{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding-top: 30px;
-}
-.row section.right .inputGroup{
-	margin: 18px 0px;
-	position: relative;
-}
-.messageForm .halfWidth{
-	flex-basis: 48%;
-}
-.messageForm .fullWidth{
-	flex-basis: 100%;
-}
-.messageForm input, .messageForm textarea{
-	width: 100%;
-	font-size: 18px;
-	padding: 2px 0px;
-	background-color: #2e2e2e;
-	color: #ddd;
-	border: none;
-	border-bottom: 2px solid #666;
-	outline: none;
-}
-.messageForm textarea{
-	resize: none;
-	height: 220px;
-	display: block;
-}
-textarea::-webkit-scrollbar{
-	width: 5px;
-}
-textarea::-webkit-scrollbar-track{
-	background-color: #1e1e1e;
-	border-radius: 15px;
-}
-textarea::-webkit-scrollbar-thumb{
-	background-color:  var(--main-color);
-	border-radius: 15px;
-}
-
-.inputGroup button{
-	padding: 8px 16px;
-	font-size: 18px;
-	background-color: var(--main-color);
-	color: #ddd;
-	border: 1px solid transparent;
-	border-radius: 25px;
-	outline: none;
-	cursor: pointer;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-	transition: 0.4s;
-}
-.inputGroup button:hover{
-	background-color: #2e2e2e;
-	color: dodgerblue;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-	border: 1px solid dodgerblue;
-}
+
+
 @media(max-width: 1100px){
 	.messageForm .halfWidth{
 		flex-basis: 100%;
