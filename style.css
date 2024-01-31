@@ -575,4 +575,10 @@ color: white;
 section.left .contactTitle h2{
 	color: white;
 }
+.iconGroup .icon i{
+	color: white;
+}
+.iconGroup .details span{
+	color: white;
+}
 }
