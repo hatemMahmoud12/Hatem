@@ -578,7 +578,7 @@ section.left .contactTitle h2{
 .iconGroup .icon i{
 	color: white;
 }
-.iconGroup .details span{
+section.left .contactTitle p{
 	color: white;
 }
 }
