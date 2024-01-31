@@ -444,7 +444,7 @@ section.left .contactInfo{
 }
 .iconGroup .details span:nth-child(1){
 	text-transform: uppercase;
-	color: #ccc;
+	color: black;
 }
 section.left .social{
 	display: flex;
@@ -565,5 +565,14 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(13deg) brightness(109%
 
 .social a{
 color: white;
+}
+.iconGroup .details span{
+	color: white;
+}
+.iconGroup .details span:nth-child(1){
+	color: white;
+}
+section.left .contactTitle h2{
+	color: white;
 }
 }
