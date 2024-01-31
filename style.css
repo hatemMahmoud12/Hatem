@@ -384,7 +384,7 @@ animation: 0.9s move;
 section.left .contactTitle h2{
 	position: relative;
 	font-size: 28px;
-	color: #ddd;
+	color: black;
 	display: inline-block;
 	margin-bottom: 25px;
 }
