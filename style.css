@@ -75,7 +75,7 @@ section{
 	padding: 100px 18%;
 }
 .home{
-	min-height: 100vh;
+	max-height: 100vh;
 	position: relative;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
