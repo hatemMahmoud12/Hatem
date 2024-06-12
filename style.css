@@ -584,7 +584,7 @@ color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url(../mega/blob.svg)no-repeat;
+	background: url(blob.svg)no-repeat;
 	background-position:center;
 	height: 100vh;
   }
