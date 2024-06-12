@@ -1258,10 +1258,10 @@ footer .content .top{
   color: #fff;
   font-size: 30px;
 }
-.content .top .media-icons{
+  .media-icons{
   display: flex;
 }
-.content .top .media-icons a{
+  .media-icons a{
   height: 40px;
   width: 40px;
   margin: 0 8px;
@@ -1273,38 +1273,38 @@ footer .content .top{
   text-decoration: none;
   transition: all 0.4s ease;
 }
-.top .media-icons a:nth-child(1){
+ .media-icons a:nth-child(1){
   background: #4267B2;
 }
-.top .media-icons a:nth-child(1):hover{
+ .media-icons a:nth-child(1):hover{
   color: #4267B2;
   background: #fff;
 }
 .top .media-icons a:nth-child(2){
   background: #1DA1F2;
 }
-.top .media-icons a:nth-child(2):hover{
+ .media-icons a:nth-child(2):hover{
   color: #1DA1F2;
   background: #fff;
 }
-.top .media-icons a:nth-child(3){
+ .media-icons a:nth-child(3){
   background: #E1306C;
 }
-.top .media-icons a:nth-child(3):hover{
+ .media-icons a:nth-child(3):hover{
   color: #E1306C;
   background: #fff;
 }
-.top .media-icons a:nth-child(4){
+ .media-icons a:nth-child(4){
   background: #0077B5;
 }
-.top .media-icons a:nth-child(4):hover{
+ .media-icons a:nth-child(4):hover{
   color: #0077B5;
   background: #fff;
 }
-.top .media-icons a:nth-child(5){
+ .media-icons a:nth-child(5){
   background: #FF0000;
 }
-.top .media-icons a:nth-child(5):hover{
+ .media-icons a:nth-child(5):hover{
   color: #FF0000;
   background: #fff;
 }
