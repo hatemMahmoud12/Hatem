@@ -231,8 +231,8 @@ background-size: cover;
 }
 
 .image{
-       width: 315px;
-       display: none;
+       width: 300px;
+       display: flex;
 	   justify-content: center;
 	   align-items: center;
 }
