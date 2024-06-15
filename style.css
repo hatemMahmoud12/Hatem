@@ -231,7 +231,7 @@ background-size: cover;
 }
 
 .image{
-       width: 290px;
+       width: 200px;
        display: flex;
 	   justify-content: center;
 	   align-items: center;
@@ -575,9 +575,7 @@ color: white;
 	  flex: 0 50%;
 	  max-width: 50%;
 	}
-	.image{
-		width: 270px;
-	}
+	
   }
   @media screen and (min-width: 992px) {
 	/*section {
