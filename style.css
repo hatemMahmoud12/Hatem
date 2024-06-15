@@ -232,7 +232,7 @@ background-size: cover;
 
 .image{
        width: 315px;
-       display: flex;
+       display: none;
 	   justify-content: center;
 	   align-items: center;
 }
