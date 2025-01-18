@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة ميجا للحلول الرقمية</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../about/about.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="../assets/images/logo-load.png" type="image/png">
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+201273155983" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <header class="header">
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navlogo"><img style="filter: brightness(0) invert(1);" class="logo" width="100" src="../assets/images/logo-load.png"></span>
+        
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><img style="filter: brightness(0) invert(1);" class="logo" width="100" src="../assets/images/logo-load.png"></span>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+        
+                    <ul class="nav-links">
+                        <li><a href="../index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="../about/about.html">عنّا</a></li>
+                        <li><a href="../projects/projects.html">سابقة الأعمال</a></li>
+                        <li><a href="../services/services.html">خدماتنا</a></li>
+                        <li><a href="../contact/contact.html">تواصل</a></li>
+                        <li><a href="../blog/blog.html">المدونة</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-shapes">
+            <div class="header-shape shape-1"></div>
+            <div class="header-shape shape-2"></div>
+        </div>
+        
+        <div class="header-content blog-header-content">
+            <h1>مدونة ميجا</h1>
+            <p class="header-subtitle">اكتشف أحدث المقالات الرقمية والتقنيات</p>
+            <a href="#blog-posts" class="header-cta">
+                <i class="ri-arrow-down-line"></i> استكشف المقالات
+            </a>
+        </div>
+    </header>
+
+    <section id="blog-posts" class="blog-section section">
+        <div class="container">
+            <h2 class="section__header">أحدث المقالات</h2>
+            
+            <div class="blog-categories">
+                <button class="category-btn active" data-category="all">الكل</button>
+                <button class="category-btn" data-category="technology">التكنولوجيا</button>
+                <button class="category-btn" data-category="design">التصميم</button>
+                <button class="category-btn" data-category="development">التطوير</button>
+            </div>
+
+            <div class="blog-search-container">
+                <div class="search-wrapper">
+                    <input type="text" id="blog-search-input" placeholder="ابحث عن المقالات...">
+                    <i class="ri-search-line search-icon"></i>
+                </div>
+            </div>
+
+            <div class="blog-grid" id="blog-grid">
+                <!-- سيتم تحميل المقالات هنا بشكل ديناميكي -->
+            </div>
+        </div>
+    </section>
+
+    <script src="blog.js"></script>
+</body>
+</html>

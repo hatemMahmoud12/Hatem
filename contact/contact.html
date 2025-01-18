@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="title">تواصل معنا - ميجا للحلول الرقمية</title>
+    
+    <!-- روابط CSS -->
+    <link rel="stylesheet" href="../about/about.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+    
+    <!-- الأيقونات -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+201273155983" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    <!-- الهيدر -->
+    <header class="header">
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navlogo">
+                    <img style="filter: brightness(0) invert(1);" class="logo" width="100" src="../assets/images/logo-load.png">
+                </span>
+        
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo">
+                            <img style="filter: brightness(0) invert(1);" class="logo" width="100" src="../assets/images/logo-load.png">
+                        </span>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+        
+                    <ul class="nav-links">
+                        <li><a data-translate="nav.home" href="../index.html">الصفحة الرئيسية</a></li>
+                        <li><a data-translate="nav.about" href="../about/about.html">عنّا</a></li>
+                        <li><a data-translate="nav.portfolio" href="../projects/projects.html">سابقة الأعمال</a></li>
+                        <li><a data-translate="nav.services" href="../services/services.html">خدماتنا</a></li>
+                        <li><a data-translate="nav.contact" href="../contact/contact.html">تواصل</a></li>
+                        <li><a data-translate="nav.blog" href="../blog/blog.html">المدونة</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-shapes">
+            <div class="header-shape shape-1"></div>
+            <div class="header-shape shape-2"></div>
+        </div>
+        
+        <div class="header-content">
+            <h1 data-translate="contact.title">تواصل معنا</h1>
+            <p class="header-subtitle" data-translate="contact.subtitle">
+                نحن هنا للإجابة على أسئلتك وتلبية احتياجاتك
+            </p>
+            <a href="#contact-section" class="header-cta" data-translate="contact.cta">تواصل الآن</a>
+        </div>
+    </header>
+
+    <!-- قسم التواصل -->
+    <form id="contactForm" action="https://formspree.io/f/mjkkdedk" method="POST" class="contact-section section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- معلومات التواصل -->
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div>
+                                <h4 data-translate="contact.address.title">العنوان</h4>
+                                <p data-translate="contact.address.value">القاهرة، مصر</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="ri-phone-line"></i>
+                            <div>
+                                <h4 data-translate="contact.phone.title">الهاتف</h4>
+                                <p data-translate="contact.phone.value">+20 127 315 5983</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="ri-mail-line"></i>
+                            <div>
+                                <h4 data-translate="contact.email.title">البريد الإلكتروني</h4>
+                                <p data-translate="contact.email.value">www.megaa.online@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="social-icon"><i class="ri-twitter-fill"></i></a>
+                        <a href="#" class="social-icon"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="social-icon"><i class="ri-linkedin-fill"></i></a>
+                    </div>
+                </div>
+
+                <!-- نموذج التواصل -->
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label data-translate="contact.form.name">الاسم الكامل</label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label data-translate="contact.form.email">البريد الإلكتروني</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label data-translate="contact.form.phone">رقم الهاتف</label>
+                        <input type="tel" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label data-translate="contact.form.subject">الموضوع</label>
+                        <select name="subject" required>
+                            <option value="" data-translate="contact.form.subject.choose">اختر موضوعًا</option>
+                            <option data-translate="contact.form.subject.general">استفسار عام</option>
+                            <option data-translate="contact.form.subject.service">طلب خدمة</option>
+                            <option data-translate="contact.form.subject.complaint">شكوى</option>
+                            <option data-translate="contact.form.subject.suggestion">اقتراح</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label data-translate="contact.form.message">الرسالة</label>
+                        <textarea name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="start__project" data-translate="contact.form.submit">إرسال الرسالة</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- السكريبتات -->
+    <script src="contact.js"></script>
+</body>
+</html>

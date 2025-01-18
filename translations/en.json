@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "cta": "Service request"
+  },
+  "services": {
+    "title": "Our Services",
+    "mobile_app": {
+      "title": "Mobile App Development",
+      "description": "Creating innovative mobile applications for iOS and Android platforms."
+    },
+    "web_development": {
+      "title": "Web Development",
+      "description": "Building responsive and dynamic websites with modern technologies."
+    },
+    "graphic_design": {
+      "title": "Graphic Design",
+      "description": "Crafting visually stunning graphics and branding materials."
+    },
+    "video_editing": {
+      "title": "Video Editing",
+      "description": "Professional video editing and motion graphics services."
+    },
+    "digital_marketing": {
+      "title": "Digital Marketing",
+      "description": "Providing SEO, PPC, and social media strategies to grow your online presence."
+    },
+    "request_service": "Request Service"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Start now, grow digitally with Megaa",
+    "description": "Megaa is an innovative company founded in 2015, providing integrated technological solutions that help businesses and individuals stand out in the digital world. Our goal is to empower our clients to take full advantage of digital opportunities and enhance their online presence through our diverse services.",
+    "cta": "View More"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "categories": {
+      "web": "Web Design",
+      "mobile": "Mobile Apps",
+      "branding": "Branding"
+    }
+  },
+  "pricing": {
+    "title": "Hosting Pricing Plans",
+    "subtitle": "Choose the perfect plan for your digital journey",
+    "starter_plan": {
+      "title": "Starter Plan",
+      "price": "$49",
+      "description": "Perfect for small businesses and startups"
+    },
+    "pro_plan": {
+      "title": "Pro Plan",
+      "price": "$149",
+      "description": "Ideal for growing businesses"
+    }
+  }
+}
