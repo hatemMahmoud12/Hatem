@@ -4,4 +4,28 @@
     <loc>https://www.megaa.online/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://www.megaa.online/about/about.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.megaa.online/services/services.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.megaa.online/service_request/service_request.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.megaa.online/projects/projects.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.megaa.online/contact/contact.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.megaa.online/blog/blog.html</loc>
+    <priority>1.0</priority>
+  </url>
 </urlset>
