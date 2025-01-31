@@ -409,3 +409,15 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 330px) {
+    .contact-form {
+        max-width: 320px;
+    }
+    .contact-info{
+        max-width: 320px;
+    }
+    .contact-info p{
+        font-size: 12px;
+    }
+}
